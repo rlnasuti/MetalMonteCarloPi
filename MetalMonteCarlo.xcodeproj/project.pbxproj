@@ -10,6 +10,10 @@
 		C9C484D21C053DA90099D77A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C484D11C053DA90099D77A /* AppDelegate.swift */; };
 		C9C484D41C053DA90099D77A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C484D31C053DA90099D77A /* Assets.xcassets */; };
 		C9C484D71C053DA90099D77A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C484D51C053DA90099D77A /* MainMenu.xib */; };
+		C9C484E11C0541C60099D77A /* mcpiShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = C9C484E01C0541C60099D77A /* mcpiShader.metal */; };
+		C9C484E61C0E72DC0099D77A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C484E41C0E72DC0099D77A /* MasterViewController.swift */; };
+		C9C484E71C0E72DC0099D77A /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C484E51C0E72DC0099D77A /* MasterViewController.xib */; };
+		C9C484E91C0EA7990099D77A /* MonteCarloPiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C484E81C0EA7990099D77A /* MonteCarloPiData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +22,10 @@
 		C9C484D31C053DA90099D77A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9C484D61C053DA90099D77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C9C484D81C053DA90099D77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C484E01C0541C60099D77A /* mcpiShader.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = mcpiShader.metal; sourceTree = "<group>"; };
+		C9C484E41C0E72DC0099D77A /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C9C484E51C0E72DC0099D77A /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		C9C484E81C0EA7990099D77A /* MonteCarloPiData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonteCarloPiData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +58,12 @@
 		C9C484D01C053DA90099D77A /* MetalMonteCarlo */ = {
 			isa = PBXGroup;
 			children = (
-				C9C484D11C053DA90099D77A /* AppDelegate.swift */,
+				C9C484E41C0E72DC0099D77A /* MasterViewController.swift */,
+				C9C484E51C0E72DC0099D77A /* MasterViewController.xib */,
+				C9C484E81C0EA7990099D77A /* MonteCarloPiData.swift */,
+				C9C484E01C0541C60099D77A /* mcpiShader.metal */,
 				C9C484D31C053DA90099D77A /* Assets.xcassets */,
+				C9C484D11C053DA90099D77A /* AppDelegate.swift */,
 				C9C484D51C053DA90099D77A /* MainMenu.xib */,
 				C9C484D81C053DA90099D77A /* Info.plist */,
 			);
@@ -118,6 +130,7 @@
 			files = (
 				C9C484D41C053DA90099D77A /* Assets.xcassets in Resources */,
 				C9C484D71C053DA90099D77A /* MainMenu.xib in Resources */,
+				C9C484E71C0E72DC0099D77A /* MasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C484E91C0EA7990099D77A /* MonteCarloPiData.swift in Sources */,
+				C9C484E61C0E72DC0099D77A /* MasterViewController.swift in Sources */,
+				C9C484E11C0541C60099D77A /* mcpiShader.metal in Sources */,
 				C9C484D21C053DA90099D77A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
